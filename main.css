@@ -1,0 +1,46 @@
+:root {
+    --main-bg-color: #191970;
+    --clicked-bg-color: ;
+    --instructions-color: #EEEEEE;
+    --keyCode-color: gray;
+}
+
+body:active {
+    filter: brightness(150%);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: var(--main-bg-color);
+    color: var(--instructions-color);
+}
+
+#instructions {
+    margin: 0;
+    padding-top: 3vh;
+    font-size: 2vh;
+    text-align: center;
+    color: var(--keyCode-color);
+}
+
+#keyCode, #keyName {
+    text-align: center;
+}
+
+#keyCode {
+    font-size: 20vh;
+    margin-top: 18vh;
+}
+
+#keyName {
+    font-size: 10vh;
+}
